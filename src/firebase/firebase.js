@@ -3,21 +3,21 @@ import 'firebase/auth';
 import 'firebase/database';
 
 const prodConfig = {
-  apiKey: YOUR_API_KEY,
-  authDomain: YOUR_AUTH_DOMAIN,
-  databaseURL: YOUR_DATABASE_URL,
-  projectId: YOUR_PROJECT_ID,
-  storageBucket: '',
-  messagingSenderId: YOUR_MESSAGING_SENDER_ID,
+    apiKey: "AIzaSyD51onwAywdfLIhQ2ff9VywYzCrkVuZkho",
+    authDomain: "food-feed-5168b.firebaseapp.com",
+    databaseURL: "https://food-feed-5168b.firebaseio.com",
+    projectId: "food-feed-5168b",
+    storageBucket: "food-feed-5168b.appspot.com",
+    messagingSenderId: "644358152509"
 };
 
 const devConfig = {
-  apiKey: YOUR_API_KEY,
-  authDomain: YOUR_AUTH_DOMAIN,
-  databaseURL: YOUR_DATABASE_URL,
-  projectId: YOUR_PROJECT_ID,
-  storageBucket: '',
-  messagingSenderId: YOUR_MESSAGING_SENDER_ID,
+    apiKey: "AIzaSyD51onwAywdfLIhQ2ff9VywYzCrkVuZkho",
+    authDomain: "food-feed-5168b.firebaseapp.com",
+    databaseURL: "https://food-feed-5168b.firebaseio.com",
+    projectId: "food-feed-5168b",
+    storageBucket: "food-feed-5168b.appspot.com",
+    messagingSenderId: "644358152509"
 };
 
 const config = process.env.NODE_ENV === 'production'
